@@ -1,21 +1,21 @@
 {
     "buttons": {
-        "attack": "0x18614C0",
-        "attack2": "0x1861550",
-        "back": "0x1861790",
-        "duck": "0x1861A60",
-        "forward": "0x1861700",
-        "jump": "0x18619D0",
-        "left": "0x1861820",
-        "lookatweapon": "0x1A89260",
-        "reload": "0x1861430",
-        "right": "0x18618B0",
-        "showscores": "0x1A89140",
-        "sprint": "0x18613A0",
-        "turnleft": "0x18615E0",
-        "turnright": "0x1861670",
-        "use": "0x1861940",
-        "zoom": "0x1A891D0"
+        "attack": "0x1882720",
+        "attack2": "0x18827B0",
+        "back": "0x18829F0",
+        "duck": "0x1882CC0",
+        "forward": "0x1882960",
+        "jump": "0x1882C30",
+        "left": "0x1882A80",
+        "lookatweapon": "0x1AAB590",
+        "reload": "0x1882690",
+        "right": "0x1882B10",
+        "showscores": "0x1AAB470",
+        "sprint": "0x1882600",
+        "turnleft": "0x1882840",
+        "turnright": "0x18828D0",
+        "use": "0x1882BA0",
+        "zoom": "0x1AAB500"
     },
     "CCSPlayer_MovementServices": {
         "m_vecLadderNormal": "0x218",
@@ -65,12 +65,14 @@
         "fog": "0x20",
         "m_nWorldGroupID": "0x88"
     },
+    "C_WeaponM4A1": {},
     "C_Item": {
         "m_pReticleHintTextName": "0x1668"
     },
     "C_SoundEventPathCornerEntity": {
         "m_vecCornerPairsNetworked": "0x628"
     },
+    "C_WeaponM249": {},
     "C_CSGameRules": {
         "m_bFreezePeriod": "0x40",
         "m_bWarmupPeriod": "0x41",
@@ -176,6 +178,7 @@
     "CBodyComponentSkeletonInstance": {
         "m_skeletonInstance": "0x50"
     },
+    "C_WeaponCZ75a": {},
     "C_BaseModelEntity": {
         "m_CRenderComponent": "0xA50",
         "m_CHitboxComponent": "0xA58",
@@ -269,9 +272,12 @@
         "m_bIsOn": "0x5BC",
         "m_pNext": "0x5C0"
     },
+    "CCSPointScriptExtensions_weapon_cs_base": {},
+    "C_LightSpotEntity": {},
     "C_EnvWind": {
         "m_EnvWindShared": "0x568"
     },
+    "C_GameRulesProxy": {},
     "C_BaseCombatCharacter": {
         "m_hMyWearables": "0x1120",
         "m_leftFootAttachment": "0x1138",
@@ -280,9 +286,15 @@
         "m_flWaterWorldZ": "0x1140",
         "m_flWaterNextTraceTime": "0x1144"
     },
+    "C_FlashbangProjectile": {},
+    "CEnvSoundscapeTriggerable": {},
     "C_SoundEventSphereEntity": {
         "m_flRadius": "0x628"
     },
+    "CPlayer_ViewModelServices": {},
+    "CCSGO_WingmanIntroCounterTerroristPosition": {},
+    "C_DynamicPropAlias_cable_dynamic": {},
+    "C_InfoInstructorHintHostageRescueZone": {},
     "C_SceneEntity": {
         "m_bIsPlayingBack": "0x570",
         "m_bPaused": "0x571",
@@ -346,6 +358,7 @@
         "m_bEnabled": "0xD44",
         "m_bDraw3DSkybox": "0xD45"
     },
+    "C_TriggerMultiple": {},
     "C_RopeKeyframe__CPhysicsDelegate": {
         "m_pKeyframe": "0x8"
     },
@@ -356,6 +369,7 @@
     "C_SoundAreaEntitySphere": {
         "m_flRadius": "0x590"
     },
+    "CCSObserver_MovementServices": {},
     "C_LightGlow": {
         "m_nHorizontalSize": "0xD28",
         "m_nVerticalSize": "0xD2C",
@@ -441,6 +455,7 @@
         "m_bSmokeVolumeDataReceived": "0x1258",
         "m_bSmokeEffectSpawned": "0x1259"
     },
+    "C_SoundEventEntityAlias_snd_event_point": {},
     "C_CSGO_MapPreviewCameraPath": {
         "m_flZFar": "0x568",
         "m_flZNear": "0x56C",
@@ -451,6 +466,7 @@
         "m_flPathLength": "0x5B8",
         "m_flPathDuration": "0x5BC"
     },
+    "CCSGO_WingmanIntroTerroristPosition": {},
     "C_Inferno": {
         "m_nfxFireDamageEffect": "0xD68",
         "m_hInfernoPointsSnapshot": "0xD70",
@@ -477,6 +493,8 @@
         "m_maxBounds": "0x8310",
         "m_flLastGrassBurnThink": "0x831C"
     },
+    "C_HostageCarriableProp": {},
+    "C_CSGO_TerroristWingmanIntroCamera": {},
     "C_PlayerPing": {
         "m_hPlayer": "0x598",
         "m_hPingedEntity": "0x59C",
@@ -484,6 +502,7 @@
         "m_bUrgent": "0x5A4",
         "m_szPlaceName": "0x5A5"
     },
+    "C_WeaponMP7": {},
     "C_CSTeam": {
         "m_szTeamMatchStat": "0x620",
         "m_numMapVictories": "0x820",
@@ -508,6 +527,8 @@
         "m_vInTangentWorld": "0x59C",
         "m_vOutTangentWorld": "0x5A8"
     },
+    "C_WeaponMag7": {},
+    "C_DEagle": {},
     "C_CSPlayerPawn": {
         "m_pBulletServices": "0x1518",
         "m_pHostageServices": "0x1520",
@@ -672,6 +693,8 @@
         "m_iEffectName": "0x6C",
         "m_nExplosionType": "0x6E"
     },
+    "C_SensorGrenadeProjectile": {},
+    "C_MolotovGrenade": {},
     "C_BaseButton": {
         "m_glowEntity": "0xD28",
         "m_usable": "0xD2C",
@@ -680,6 +703,7 @@
     "CCSPlayer_ViewModelServices": {
         "m_hViewModel": "0x40"
     },
+    "CInfoParticleTarget": {},
     "CPlayer_MovementServices_Humanoid": {
         "m_flStepSoundTime": "0x1D8",
         "m_flFallVelocity": "0x1DC",
@@ -694,6 +718,8 @@
         "m_surfaceProps": "0x200",
         "m_nStepside": "0x210"
     },
+    "C_WeaponAug": {},
+    "CEnvSoundscapeProxyAlias_snd_soundscape_proxy": {},
     "C_PointClientUIWorldPanel": {
         "m_bForceRecreateNextUpdate": "0xD60",
         "m_bMoveViewToPlayerNextThink": "0xD61",
@@ -724,17 +750,21 @@
         "m_bDisableMipGen": "0xF7F",
         "m_nExplicitImageLayout": "0xF80"
     },
+    "C_CSMinimapBoundary": {},
     "CCSGameModeRules_Deathmatch": {
         "m_flDMBonusStartTime": "0x30",
         "m_flDMBonusTimeLength": "0x34",
         "m_sDMBonusWeapon": "0x38"
     },
+    "C_CSGO_EndOfMatchCharacterPosition": {},
+    "C_SoundOpvarSetAABBEntity": {},
     "C_GameRules": {
         "__m_pChainEntity": "0x8",
         "m_nTotalPausedTicks": "0x30",
         "m_nPauseStartTick": "0x34",
         "m_bGamePaused": "0x38"
     },
+    "C_PropDoorRotating": {},
     "C_Team": {
         "m_aPlayerControllers": "0x568",
         "m_aPlayers": "0x580",
@@ -755,6 +785,8 @@
         "m_flStartTime": "0xD58",
         "m_flStartFrame": "0xD5C"
     },
+    "C_SoundOpvarSetPointEntity": {},
+    "C_LightOrthoEntity": {},
     "CCSPlayer_WaterServices": {
         "m_flWaterJumpTime": "0x40",
         "m_vecWaterJumpVel": "0x44",
@@ -764,6 +796,7 @@
         "m_worldGroupId": "0x568",
         "m_hSkyCamera": "0x56C"
     },
+    "C_TonemapController2Alias_env_tonemap_controller2": {},
     "CProjectedTextureBase": {
         "m_hTargetEntity": "0xC",
         "m_bState": "0x10",
@@ -806,6 +839,8 @@
         "m_nPersonaDataXpTrailLevel": "0x6C",
         "m_vecServerAuthoritativeWeaponSlots": "0x70"
     },
+    "C_PathParticleRopeAlias_path_particle_rope_clientside": {},
+    "CPlayer_UseServices": {},
     "C_CSGOViewModel": {
         "m_bShouldIgnoreOffsetAndAccuracy": "0x1021",
         "m_nLastKnownAssociatedWeaponEntIndex": "0x1024",
@@ -838,6 +873,9 @@
         "m_bShouldFrontFaceCullLeftHanded": "0xF90",
         "m_bCreatedLeftHanded": "0xF91"
     },
+    "CCSPointScriptExtensions_player_controller": {},
+    "C_Flashbang": {},
+    "CBumpMine": {},
     "CSPerRoundStats_t": {
         "m_iKills": "0x30",
         "m_iDeaths": "0x34",
@@ -892,6 +930,10 @@
         "m_nItemDefIndex": "0x30",
         "m_nCount": "0x32"
     },
+    "C_SmokeGrenade": {},
+    "C_WeaponGalilAR": {},
+    "C_WorldModelGloves": {},
+    "C_EnvProjectedTexture": {},
     "CPathSimple": {
         "m_pathString": "0x5C0"
     },
@@ -909,6 +951,8 @@
         "m_flSeenTargetTime": "0xF94",
         "m_pTargetPanel": "0xF98"
     },
+    "CCSPointScriptExtensions_entity": {},
+    "CBodyComponentBaseModelEntity": {},
     "C_CSWeaponBaseGun": {
         "m_zoomLevel": "0x1B20",
         "m_iBurstShotsRemaining": "0x1B24",
@@ -923,6 +967,7 @@
         "m_bUseAngles": "0x5FC",
         "m_pNext": "0x600"
     },
+    "C_World": {},
     "C_EntityDissolve": {
         "m_flStartTime": "0xD30",
         "m_flFadeInStart": "0xD34",
@@ -938,6 +983,7 @@
         "m_bCoreExplode": "0xD64",
         "m_bLinkedToServerEnt": "0xD65"
     },
+    "CCSObserver_UseServices": {},
     "C_fogplayerparams_t": {
         "m_hCtrl": "0x8",
         "m_flTransitionTime": "0xC",
@@ -1021,6 +1067,7 @@
         "m_bGuardianShouldSprayCustomXMark": "0x1500",
         "m_hOriginalController": "0x1508"
     },
+    "C_Item_Healthshot": {},
     "C_EnvWindShared": {
         "m_flStartTime": "0x8",
         "m_iWindSeed": "0xC",
@@ -1073,11 +1120,14 @@
     "CCSPlayer_PingServices": {
         "m_hPlayerPing": "0x40"
     },
+    "CPlayer_FlashlightServices": {},
+    "CServerOnlyModelEntity": {},
     "C_AttributeContainer": {
         "m_Item": "0x50",
         "m_iExternalItemProviderRegisteredToken": "0x498",
         "m_ullRegisteredAsItemID": "0x4A0"
     },
+    "C_FuncRotating": {},
     "C_BaseFire": {
         "m_flScale": "0x568",
         "m_flStartScale": "0x56C",
@@ -1102,11 +1152,13 @@
         "m_bIsLocalPlayerController": "0x6F0",
         "m_iDesiredFOV": "0x6F4"
     },
+    "CPointTemplateAPI": {},
     "C_DecoyProjectile": {
         "m_nDecoyShotTick": "0x1208",
         "m_nClientLastKnownDecoyShotTick": "0x120C",
         "m_flTimeParticleEffectSpawn": "0x1230"
     },
+    "C_WaterBullet": {},
     "C_CSGO_PreviewPlayer": {
         "m_animgraph": "0x3A40",
         "m_animgraphCharacterModeString": "0x3A48",
@@ -1128,6 +1180,7 @@
         "m_bLastUpdateSkipped": "0x14D4",
         "m_flPrevAnimUpdateTime": "0x14D8"
     },
+    "CCSPointScriptEntity": {},
     "C_C4": {
         "m_szScreenText": "0x1B20",
         "m_activeLightParticleIndex": "0x1B40",
@@ -1156,6 +1209,11 @@
         "m_bRagdollClientSide": "0xE40",
         "m_bHasAnimatedMaterialAttributes": "0xE50"
     },
+    "C_Melee": {},
+    "CBreachChargeProjectile": {},
+    "C_PointEntity": {},
+    "C_MultiplayRules": {},
+    "CBasePlayerControllerAPI": {},
     "C_PathParticleRope": {
         "m_bStartActive": "0x570",
         "m_flMaxSimulationTime": "0x574",
@@ -1174,10 +1232,13 @@
         "m_PathNodes_PinEnabled": "0x618",
         "m_PathNodes_RadiusScale": "0x630"
     },
+    "CCSPointScriptExtensions_CCSWeaponBaseVData": {},
     "C_SoundEventAABBEntity": {
         "m_vMins": "0x628",
         "m_vMaxs": "0x634"
     },
+    "C_WeaponP90": {},
+    "CEnvSoundscapeAlias_snd_soundscape": {},
     "C_BasePlayerWeapon": {
         "m_nNextPrimaryAttackTick": "0x1668",
         "m_flNextPrimaryAttackTickRatio": "0x166C",
@@ -1245,6 +1306,7 @@
         "m_nCompressionType": "0x21C",
         "m_bStopped": "0x220"
     },
+    "C_WeaponAWP": {},
     "C_BasePlayerPawn": {
         "m_pWeaponServices": "0x11A8",
         "m_pItemServices": "0x11B0",
@@ -1283,6 +1345,7 @@
         "m_ProviderType": "0x2C",
         "m_CachedResults": "0x30"
     },
+    "CLogicalEntity": {},
     "CAnimGraphNetworkedVariables": {
         "m_PredNetBoolVariables": "0x8",
         "m_PredNetByteVariables": "0x20",
@@ -1391,10 +1454,12 @@
         "m_flDeathCamTilt": "0x228",
         "m_vClientScopeInaccuracy": "0x230"
     },
+    "C_CSGO_TeamSelectCounterTerroristPosition": {},
     "C_EconWearable": {
         "m_nForceSkin": "0x1668",
         "m_bAlwaysAllow": "0x166C"
     },
+    "CCSGO_WingmanIntroCharacterPosition": {},
     "CSMatchStats_t": {
         "m_iEnemy5Ks": "0x68",
         "m_iEnemy4Ks": "0x6C",
@@ -1402,6 +1467,7 @@
         "m_iEnemyKnifeKills": "0x74",
         "m_iEnemyTaserKills": "0x78"
     },
+    "C_BaseToggle": {},
     "C_EnvVolumetricFogVolume": {
         "m_bActive": "0x568",
         "m_vBoxMins": "0x56C",
@@ -1420,6 +1486,9 @@
         "m_bOverrideNoiseStrength": "0x5AA",
         "m_bAllowLPVIndirect": "0x5AB"
     },
+    "CWaterSplasher": {},
+    "C_ModelPointEntity": {},
+    "CCSObserver_ViewModelServices": {},
     "C_FireSmoke": {
         "m_nFlameModelIndex": "0x578",
         "m_nFlameFromAboveModelIndex": "0x57C",
@@ -1435,6 +1504,8 @@
         "m_tParticleSpawn": "0x5B0",
         "m_pFireOverlay": "0x5B8"
     },
+    "C_WeaponRevolver": {},
+    "C_FireFromAboveSprite": {},
     "C_EnvCombinedLightProbeVolume": {
         "m_Entity_Color": "0x15C8",
         "m_Entity_flBrightness": "0x15CC",
@@ -1461,12 +1532,15 @@
         "m_Entity_nLightProbeAtlasZ": "0x1650",
         "m_Entity_bEnabled": "0x1669"
     },
+    "C_SoundOpvarSetOBBWindEntity": {},
     "ActiveModelConfig_t": {
         "m_Handle": "0x28",
         "m_Name": "0x30",
         "m_AssociatedEntities": "0x38",
         "m_AssociatedEntityNames": "0x50"
     },
+    "C_WeaponMP5SD": {},
+    "C_DynamicPropAlias_dynamic_prop": {},
     "CCSPlayer_BulletServices": {
         "m_totalHitsOnServer": "0x40"
     },
@@ -1572,9 +1646,11 @@
         "m_flExposureAdaptationSpeedDown": "0x580",
         "m_flTonemapEVSmoothingRange": "0x584"
     },
+    "C_WeaponG3SG1": {},
     "CFuncWater": {
         "m_BuoyancyHelper": "0xD28"
     },
+    "C_SoundOpvarSetAutoRoomEntity": {},
     "C_EconEntity": {
         "m_flFlexDelayTime": "0x1130",
         "m_flFlexDelayedWeight": "0x1138",
@@ -1597,6 +1673,7 @@
         "m_hOldProvidee": "0x1648",
         "m_vecAttachedModels": "0x1650"
     },
+    "C_WeaponSG556": {},
     "C_RectLight": {
         "m_bShowLight": "0x1070"
     },
@@ -1626,6 +1703,9 @@
         "m_bOldActive": "0x12C0",
         "m_bOldFrozen": "0x12C1"
     },
+    "C_CSGO_TeamPreviewModel": {},
+    "C_WeaponGlock": {},
+    "CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable": {},
     "C_CSGameRulesProxy": {
         "m_pGameRules": "0x568"
     },
@@ -1637,6 +1717,9 @@
         "m_flObserverChaseDistance": "0x50",
         "m_flObserverChaseDistanceCalcTime": "0x54"
     },
+    "CWeaponZoneRepulsor": {},
+    "CPlayer_WaterServices": {},
+    "C_CSGO_EndOfMatchLineupEnd": {},
     "SequenceHistory_t": {
         "m_hSequence": "0x0",
         "m_flSeqStartTime": "0x4",
@@ -1663,6 +1746,7 @@
         "m_bProjectOnWater": "0xD42",
         "m_flDepthSortBias": "0xD44"
     },
+    "CCSGameModeRules_Noop": {},
     "C_ColorCorrection": {
         "m_vecOrigin": "0x568",
         "m_MinFalloff": "0x574",
@@ -1683,6 +1767,7 @@
         "m_flFadeStartTime": "0x7A0",
         "m_flFadeDuration": "0x7A4"
     },
+    "CHostageRescueZoneShim": {},
     "CModelState": {
         "m_hModel": "0xA0",
         "m_ModelName": "0xA8",
@@ -1692,6 +1777,7 @@
         "m_nForceLOD": "0x21B",
         "m_nClothUpdateFlags": "0x21C"
     },
+    "C_WeaponP250": {},
     "C_EconEntity__AttachedModelData_t": {
         "m_iModelDisplayFlags": "0x0"
     },
@@ -1699,6 +1785,10 @@
         "m_Attributes": "0x8",
         "m_pManager": "0x58"
     },
+    "C_TeamplayRules": {},
+    "C_CSGO_CounterTerroristWingmanIntroCamera": {},
+    "C_WeaponNOVA": {},
+    "C_HEGrenadeProjectile": {},
     "C_BaseDoor": {
         "m_bIsUsable": "0xD28"
     },
@@ -1736,6 +1826,7 @@
         "m_bIsOtherEnemy": "0x6C",
         "m_killType": "0x6D"
     },
+    "C_InfoLadderDismount": {},
     "CCSPlayerController_DamageServices": {
         "m_nSendUpdate": "0x40",
         "m_DamageList": "0x48"
@@ -1822,6 +1913,8 @@
         "m_flCapsuleLength": "0x198",
         "m_flMinRoughness": "0x19C"
     },
+    "C_CSGO_CounterTerroristTeamIntroCamera": {},
+    "CEntityComponent": {},
     "C_EconItemView": {
         "m_bInventoryImageRgbaRequested": "0x60",
         "m_bInventoryImageTriedCache": "0x61",
@@ -1860,12 +1953,14 @@
     "C_EnvWindClientside": {
         "m_EnvWindShared": "0x568"
     },
+    "C_WeaponMAC10": {},
     "C_WeaponShield": {
         "m_flDisplayHealth": "0x1B40"
     },
     "C_PointClientUIWorldTextPanel": {
         "m_messageText": "0xF90"
     },
+    "CCSPlayer_UseServices": {},
     "CPlayer_MovementServices": {
         "m_nImpulse": "0x40",
         "m_nButtons": "0x48",
@@ -1922,6 +2017,10 @@
         "m_flWindAngleVariation": "0x0",
         "m_flWindSpeedVariation": "0x4"
     },
+    "C_WeaponUSPSilencer": {},
+    "CSpriteOriented": {},
+    "C_CSGO_EndOfMatchLineupStart": {},
+    "C_WeaponFamas": {},
     "C_EnvParticleGlow": {
         "m_flAlphaScale": "0x12D8",
         "m_flRadiusScale": "0x12DC",
@@ -1946,6 +2045,8 @@
         "m_nEntityIndexSelection": "0x61C",
         "m_bClientSideOnly": "0x0"
     },
+    "C_CSGO_TeamIntroCharacterPosition": {},
+    "C_CSGO_PreviewModelAlias_csgo_item_previewmodel": {},
     "C_Sun": {
         "m_fxSSSunFlareEffectIndex": "0xD28",
         "m_fxSunFlareEffectIndex": "0xD2C",
@@ -1966,6 +2067,7 @@
         "m_flAlphaHdr": "0xD80",
         "m_flFarZScale": "0xD84"
     },
+    "C_CSGO_EndOfMatchLineupEndpoint": {},
     "CCSPlayerController_ActionTrackingServices": {
         "m_perRoundStats": "0x40",
         "m_matchStats": "0x90",
@@ -1987,6 +2089,7 @@
         "m_Weight": "0xD4C",
         "m_lookupFilename": "0xD50"
     },
+    "C_PrecipitationBlocker": {},
     "C_BulletHitModel": {
         "m_matLocal": "0xF88",
         "m_iBoneIndex": "0xFB8",
@@ -2014,11 +2117,14 @@
         "m_nPostDataUpdateTick": "0xEA8",
         "m_bDisabledHud": "0xEAC"
     },
+    "CSharedGapTypeQueryRegistration": {},
     "C_OmniLight": {
         "m_flInnerAngle": "0x1070",
         "m_flOuterAngle": "0x1074",
         "m_bShowLight": "0x1078"
     },
+    "C_FireCrackerBlast": {},
+    "C_WeaponMP9": {},
     "WeaponPurchaseTracker_t": {
         "m_weaponPurchases": "0x8"
     },
@@ -2034,6 +2140,7 @@
         "m_timestamp": "0xC",
         "m_timescale": "0x10"
     },
+    "CCSPlayer_GlowServices": {},
     "C_BaseFlex__Emphasized_Phoneme": {
         "m_sClassName": "0x0",
         "m_flAmount": "0x18",
@@ -2045,6 +2152,7 @@
         "m_timestamp": "0x8",
         "m_nWorldGroupId": "0xC"
     },
+    "C_WeaponSSG08": {},
     "C_FuncLadder": {
         "m_vecLadderDir": "0xD28",
         "m_Dismounts": "0xD38",
@@ -2056,6 +2164,7 @@
         "m_bFakeLadder": "0xD79",
         "m_bHasSlack": "0xD7A"
     },
+    "C_SoundOpvarSetOBBEntity": {},
     "CPlayer_WeaponServices": {
         "m_hMyWeapons": "0x40",
         "m_hActiveWeapon": "0x58",
@@ -2130,6 +2239,7 @@
         "m_vNoiseScale": "0x5F4",
         "m_bFirstTime": "0x600"
     },
+    "C_WeaponTec9": {},
     "C_PointCommentaryNode": {
         "m_bActive": "0xF90",
         "m_bWasActive": "0xF91",
@@ -2145,6 +2255,8 @@
         "m_hViewPosition": "0xFD0",
         "m_bRestartAfterRestore": "0xFD4"
     },
+    "CCSObserver_CameraServices": {},
+    "CCSClientPointScriptEntity": {},
     "audioparams_t": {
         "localSound": "0x8",
         "soundscapeIndex": "0x68",
@@ -2152,6 +2264,7 @@
         "soundscapeEntityListIndex": "0x70",
         "soundEventHash": "0x74"
     },
+    "C_CS2WeaponModuleBase": {},
     "C_InfoVisibilityBox": {
         "m_nMode": "0x56C",
         "m_vBoxSize": "0x570",
@@ -2161,6 +2274,7 @@
         "m_vecMoveDir": "0xE38",
         "m_bFadeFromAbove": "0xE44"
     },
+    "C_CSGO_TeamIntroTerroristPosition": {},
     "C_Precipitation": {
         "m_flDensity": "0xD30",
         "m_flParticleInnerDist": "0xD40",
@@ -2229,6 +2343,8 @@
         "m_bConformToCollisionBounds": "0xF90",
         "m_mPreferredCatchTransform": "0xF94"
     },
+    "C_CSGO_PreviewPlayerAlias_csgo_player_previewmodel": {},
+    "CCSPointScriptExtensions_observer": {},
     "CPointTemplate": {
         "m_iszWorldName": "0x568",
         "m_iszSource2EntityLumpName": "0x570",
@@ -2243,6 +2359,8 @@
         "m_ScriptSpawnCallback": "0x5E8",
         "m_ScriptCallbackScope": "0x5F0"
     },
+    "C_WeaponHKP2000": {},
+    "CTripWireFire": {},
     "C_CSGO_PreviewModel": {
         "m_animgraph": "0x1120",
         "m_animgraphCharacterModeString": "0x1128",
@@ -2258,6 +2376,10 @@
         "m_nLightChoice": "0x574",
         "m_hLight": "0x578"
     },
+    "CTakeDamageInfoAPI": {},
+    "C_BaseEntityAPI": {},
+    "C_WeaponXM1014": {},
+    "C_MapPreviewParticleSystem": {},
     "CGlowProperty": {
         "m_fGlowColor": "0x8",
         "m_iGlowType": "0x30",
@@ -2290,6 +2412,8 @@
         "m_hCarriedHostage": "0x40",
         "m_hCarriedHostageProp": "0x44"
     },
+    "CBreachCharge": {},
+    "C_LightDirectionalEntity": {},
     "C_EnvCubemap": {
         "m_Entity_hCubemapTexture": "0x5E8",
         "m_Entity_bCustomCubemapTexture": "0x5F0",
@@ -2315,6 +2439,8 @@
         "m_targetSpeed": "0xFFC",
         "m_currentSpeed": "0x1008"
     },
+    "C_WeaponBizon": {},
+    "C_AK47": {},
     "C_PointValueRemapper": {
         "m_bDisabled": "0x568",
         "m_bDisabledOld": "0x569",
@@ -2345,10 +2471,12 @@
     "C_Knife": {
         "m_bFirstAttack": "0x1B20"
     },
+    "C_EnvCubemapBox": {},
     "C_ItemDogtags": {
         "m_OwningPlayer": "0x1768",
         "m_KillingPlayer": "0x176C"
     },
+    "C_CSGO_EndOfMatchCamera": {},
     "C_SoundOpvarSetPointBase": {
         "m_iszStackName": "0x568",
         "m_iszOperatorName": "0x570",
@@ -2356,9 +2484,12 @@
         "m_iOpvarIndex": "0x580",
         "m_bUseAutoCompare": "0x584"
     },
+    "C_PhysBox": {},
     "CCSPlayer_BuyServices": {
         "m_vecSellbackPurchaseEntries": "0x40"
     },
+    "CPathSimpleAPI": {},
+    "C_SensorGrenade": {},
     "C_WeaponTaser": {
         "m_fFireTime": "0x1B40",
         "m_nLastAttackTick": "0x1B44"
@@ -2367,10 +2498,12 @@
         "m_bPlayingUninterruptableAct": "0x1B20",
         "m_nUninterruptableActivity": "0x1B24"
     },
+    "C_PhysicsPropMultiplayer": {},
     "CInfoDynamicShadowHintBox": {
         "m_vBoxMins": "0x580",
         "m_vBoxMaxs": "0x58C"
     },
+    "C_SoundOpvarSetPathCornerEntity": {},
     "C_EnvCubemapFog": {
         "m_flEndDistance": "0x568",
         "m_flStartDistance": "0x56C",
@@ -2391,6 +2524,7 @@
         "m_bHasHeightFogEnd": "0x5B0",
         "m_bFirstTime": "0x5B1"
     },
+    "C_WeaponSawedoff": {},
     "CCollisionProperty": {
         "m_collisionAttribute": "0x10",
         "m_vecMins": "0x40",
@@ -2445,6 +2579,7 @@
     "C_ShatterGlassShardPhysics": {
         "m_ShardDesc": "0x1120"
     },
+    "C_WeaponElite": {},
     "C_LightEntity": {
         "m_CLightComponent": "0xD28"
     },
@@ -2518,6 +2653,8 @@
         "m_flFogMaxEnd": "0xD58",
         "m_bEnabled": "0xD5C"
     },
+    "CInfoTarget": {},
+    "C_CSGO_TeamIntroCounterTerroristPosition": {},
     "C_DynamicProp": {
         "m_bUseHitboxesForRenderBox": "0x1110",
         "m_bUseAnimGraph": "0x1111",
@@ -2555,6 +2692,9 @@
         "m_nDisableTakePhysicsDamageSpawnFlag": "0x38",
         "m_nMotionDisabledSpawnFlag": "0x3C"
     },
+    "C_WeaponSCAR20": {},
+    "C_DecoyGrenade": {},
+    "CCSPointScriptExtensions_player": {},
     "C_KeychainModule": {
         "m_nKeychainDefID": "0xF90",
         "m_nKeychainSeed": "0xF94"
@@ -2576,6 +2716,7 @@
         "m_bPrevHelmet": "0x3C",
         "m_hItem": "0x40"
     },
+    "C_SingleplayRules": {},
     "C_LocalTempEntity": {
         "flags": "0xF88",
         "die": "0xF8C",
@@ -2610,6 +2751,8 @@
     "C_MolotovProjectile": {
         "m_bIsIncGrenade": "0x1208"
     },
+    "C_LightEnvironmentEntity": {},
+    "C_WeaponUMP45": {},
     "CInfoOffscreenPanoramaTexture": {
         "m_bDisabled": "0x568",
         "m_nResolutionX": "0x56C",
@@ -2705,6 +2848,7 @@
         "m_flLastMagDropRequestTime": "0x1B00",
         "m_flWatTickOffset": "0x1B04"
     },
+    "C_TriggerVolume": {},
     "C_FuncElectrifiedVolume": {
         "m_nAmbientEffect": "0xD28",
         "m_EffectName": "0xD30",
@@ -2855,6 +2999,7 @@
         "m_hFlareEnt": "0x1108",
         "m_noGhostCollision": "0x110C"
     },
+    "C_FuncMoveLinear": {},
     "C_Beam": {
         "m_flFrameRate": "0xD28",
         "m_flHDRColorScale": "0xD2C",
@@ -2891,6 +3036,7 @@
         "m_glovesItem": "0x9D0",
         "m_weaponItem": "0xE18"
     },
+    "C_DynamicPropAlias_prop_dynamic_override": {},
     "C_EnvScreenOverlay": {
         "m_iszOverlayNames": "0x568",
         "m_flOverlayTimes": "0x5B8",
@@ -3015,6 +3161,7 @@
         "m_nJustifyVertical": "0xFF0",
         "m_nReorientMode": "0xFF4"
     },
+    "CBumpMineProjectile": {},
     "CCSPlayerController": {
         "m_pInGameMoneyServices": "0x720",
         "m_pInventoryServices": "0x728",
@@ -3082,6 +3229,7 @@
         "m_bIsPlayerNameDirty": "0x854",
         "m_bFireBulletsSeedSynchronized": "0x855"
     },
+    "C_WeaponFiveSeven": {},
     "C_BasePropDoor": {
         "m_eDoorState": "0x1238",
         "m_modelChanged": "0x123C",
@@ -3091,6 +3239,7 @@
         "m_hMaster": "0x1258",
         "m_vWhereToSetLightingOrigin": "0x125C"
     },
+    "C_CSGO_TeamSelectTerroristPosition": {},
     "C_NametagModule": {
         "m_strNametagString": "0xF90"
     },
@@ -3102,6 +3251,7 @@
         "m_vecDamageDirection": "0x1128",
         "m_nDamageType": "0x1134"
     },
+    "C_CSGO_TeamSelectCamera": {},
     "C_SoundAreaEntityBase": {
         "m_bDisabled": "0x568",
         "m_bWasEnabled": "0x570",
@@ -3113,6 +3263,8 @@
         "m_bUseAngles": "0x5D0",
         "m_iChangedVariables": "0x5D4"
     },
+    "CPlayer_ItemServices": {},
+    "C_FuncBrush": {},
     "CInfoWorldLayer": {
         "m_pOutputOnEntitiesSpawned": "0x568",
         "m_worldName": "0x590",
@@ -3123,6 +3275,7 @@
         "m_hLayerSpawnGroup": "0x5A4",
         "m_bWorldLayerActuallyVisible": "0x5A8"
     },
+    "C_NetTestBaseCombatCharacter": {},
     "C_PhysMagnet": {
         "m_aAttachedObjectsFromServer": "0xF88",
         "m_aAttachedObjects": "0xFA0"
@@ -3148,6 +3301,7 @@
         "unSlot": "0x2A",
         "unItemDefIdx": "0x2C"
     },
+    "CCSPlayer_DamageReactServices": {},
     "C_BaseViewModel": {
         "m_vecLastFacing": "0xF90",
         "m_nViewModelIndex": "0xF9C",
@@ -3166,6 +3320,9 @@
         "m_oldLayerStartTime": "0xFE4",
         "m_hControlPanel": "0xFE8"
     },
+    "C_PortraitWorldCallbackHandler": {},
+    "CHostageRescueZone": {},
+    "C_WeaponNegev": {},
     "CGameSceneNode": {
         "m_nodeToWorld": "0x10",
         "m_pOwner": "0x30",
@@ -3201,6 +3358,8 @@
         "m_flClientLocalScale": "0x140",
         "m_vRenderOrigin": "0x144"
     },
+    "C_IncendiaryGrenade": {},
+    "CTablet": {},
     "CCSPointScript": {
         "m_pParent": "0xF8"
     },
@@ -3212,6 +3371,8 @@
         "m_hOldAttached": "0x590",
         "m_bCheapEffect": "0x594"
     },
+    "CTripWireFireProjectile": {},
+    "C_Breakable": {},
     "CCSObserver_ObserverServices": {
         "m_hLastObserverTarget": "0x58",
         "m_vecObserverInterpolateOffset": "0x5C",
@@ -3222,6 +3383,8 @@
         "m_obsInterpState": "0xA0",
         "m_bObserverInterpolationNeedsDeferredSetup": "0xA4"
     },
+    "C_TintController": {},
+    "CPlayer_AutoaimServices": {},
     "C_Hostage": {
         "m_entitySpottedState": "0x11A8",
         "m_leader": "0x11C0",
@@ -3273,6 +3436,7 @@
         "m_nSpriteWidth": "0xE30",
         "m_nSpriteHeight": "0xE34"
     },
+    "C_WeaponM4A1Silencer": {},
     "CMapInfo": {
         "m_iBuyingStatus": "0x568",
         "m_flBombRadius": "0x56C",
@@ -3326,6 +3490,7 @@
         "m_parentPhysicsBoneIndices": "0xFD0",
         "m_worldSpaceBoneComputationOrder": "0xFE8"
     },
+    "C_CSGO_TerroristTeamIntroCamera": {},
     "C_VoteController": {
         "m_iActiveIssueIndex": "0x578",
         "m_iOnlyTeamToVote": "0x57C",
@@ -3353,28 +3518,28 @@
         "m_Transforms": "0x8",
         "m_hOwner": "0x20"
     },
-    "client_dll": {
-        "dwCSGOInput": "0x1A89340",
-        "dwEntityList": "0x1A146E8",
-        "dwGameEntitySystem": "0x1B37E58",
+    "client": {
+        "dwCSGOInput": "0x1AAB670",
+        "dwEntityList": "0x1A359B0",
+        "dwGameEntitySystem": "0x1B5C6C8",
         "dwGameEntitySystem_highestEntityIndex": "0x20F0",
-        "dwGameRules": "0x1A7AF28",
-        "dwGlobalVars": "0x185C9B0",
-        "dwGlowManager": "0x1A7A668",
-        "dwLocalPlayerController": "0x1A64E80",
-        "dwLocalPlayerPawn": "0x1868CC8",
-        "dwPlantedC4": "0x1A84F90",
-        "dwPrediction": "0x1868B60",
-        "dwSensitivity": "0x1A7BC48",
+        "dwGameRules": "0x1A9C7F0",
+        "dwGlobalVars": "0x187DC80",
+        "dwGlowManager": "0x1A9C810",
+        "dwLocalPlayerController": "0x1A87030",
+        "dwLocalPlayerPawn": "0x1889F20",
+        "dwPlantedC4": "0x1AA6840",
+        "dwPrediction": "0x1889DA0",
+        "dwSensitivity": "0x1A9DF58",
         "dwSensitivity_sensitivity": "0x40",
-        "dwViewAngles": "0x1A89710",
-        "dwViewMatrix": "0x1A7F610",
-        "dwViewRender": "0x1A7FE20",
-        "dwWeaponC4": "0x1A17928"
+        "dwViewAngles": "0x1AABA40",
+        "dwViewMatrix": "0x1AA17B0",
+        "dwViewRender": "0x1AA1FC0",
+        "dwWeaponC4": "0x1A39C20"
     },
-    "engine2_dll": {
-        "dwBuildNumber": "0x532BE4",
-        "dwNetworkGameClient": "0x531CE0",
+    "engine2": {
+        "dwBuildNumber": "0x540BE4",
+        "dwNetworkGameClient": "0x53FCE0",
         "dwNetworkGameClient_clientTickCount": "0x368",
         "dwNetworkGameClient_deltaTick": "0x27C",
         "dwNetworkGameClient_isBackgroundMap": "0x281447",
@@ -3382,18 +3547,18 @@
         "dwNetworkGameClient_maxClients": "0x238",
         "dwNetworkGameClient_serverTickCount": "0x36C",
         "dwNetworkGameClient_signOnState": "0x228",
-        "dwWindowHeight": "0x61514C",
-        "dwWindowWidth": "0x615148"
+        "dwWindowHeight": "0x623504",
+        "dwWindowWidth": "0x623500"
     },
-    "inputsystem_dll": {
+    "inputsystem": {
         "dwInputSystem": "0x387E0"
     },
-    "matchmaking_dll": {
+    "matchmaking": {
         "dwGameTypes": "0x1A41B0",
         "dwGameTypes_mapName": "0x120"
     },
-    "soundsystem_dll": {
-        "dwSoundSystem": "0x39D5E0",
+    "soundsystem": {
+        "dwSoundSystem": "0x39E5E0",
         "dwSoundSystem_engineViewData": "0x7C"
     }
 }
