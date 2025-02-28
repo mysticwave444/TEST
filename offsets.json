@@ -16,14 +16,7 @@
         "turnright": "0x18838C0",
         "use": "0x1883B90",
         "zoom": "0x1AAC520"
-    }
-}
-{
-    "cs2_dumper": {},
-    "C_CSGO_TeamSelectCharacterPosition": {},
-    "C_HEGrenade": {},
-    "C_FuncMover": {},
-    "C_TriggerLerpObject": {},
+    },
     "CCSPlayer_MovementServices": {
         "m_vecLadderNormal": "0x218",
         "m_nLadderSurfacePropIndex": "0x224",
@@ -3524,9 +3517,7 @@
     "PhysicsRagdollPose_t": {
         "m_Transforms": "0x8",
         "m_hOwner": "0x20"
-    }
-}
-{
+    },
     "client_dll": {
         "dwCSGOInput": "0x1AAC690",
         "dwEntityList": "0x1A369E0",
