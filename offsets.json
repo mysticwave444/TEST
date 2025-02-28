@@ -1,22 +1,29 @@
 {
     "buttons": {
-        "attack": "0x1882720",
-        "attack2": "0x18827B0",
-        "back": "0x18829F0",
-        "duck": "0x1882CC0",
-        "forward": "0x1882960",
-        "jump": "0x1882C30",
-        "left": "0x1882A80",
-        "lookatweapon": "0x1AAB590",
-        "reload": "0x1882690",
-        "right": "0x1882B10",
-        "showscores": "0x1AAB470",
-        "sprint": "0x1882600",
-        "turnleft": "0x1882840",
-        "turnright": "0x18828D0",
-        "use": "0x1882BA0",
-        "zoom": "0x1AAB500"
-    },
+        "attack": "0x1883710",
+        "attack2": "0x18837A0",
+        "back": "0x18839E0",
+        "duck": "0x1883CB0",
+        "forward": "0x1883950",
+        "jump": "0x1883C20",
+        "left": "0x1883A70",
+        "lookatweapon": "0x1AAC5B0",
+        "reload": "0x1883680",
+        "right": "0x1883B00",
+        "showscores": "0x1AAC490",
+        "sprint": "0x18835F0",
+        "turnleft": "0x1883830",
+        "turnright": "0x18838C0",
+        "use": "0x1883B90",
+        "zoom": "0x1AAC520"
+    }
+}
+{
+    "cs2_dumper": {},
+    "C_CSGO_TeamSelectCharacterPosition": {},
+    "C_HEGrenade": {},
+    "C_FuncMover": {},
+    "C_TriggerLerpObject": {},
     "CCSPlayer_MovementServices": {
         "m_vecLadderNormal": "0x218",
         "m_nLadderSurfacePropIndex": "0x224",
@@ -3517,25 +3524,27 @@
     "PhysicsRagdollPose_t": {
         "m_Transforms": "0x8",
         "m_hOwner": "0x20"
-    },
+    }
+}
+{
     "client_dll": {
-        "dwCSGOInput": "0x1AAB670",
-        "dwEntityList": "0x1A359B0",
-        "dwGameEntitySystem": "0x1B5C6C8",
+        "dwCSGOInput": "0x1AAC690",
+        "dwEntityList": "0x1A369E0",
+        "dwGameEntitySystem": "0x1B5D728",
         "dwGameEntitySystem_highestEntityIndex": "0x20F0",
-        "dwGameRules": "0x1A9C7F0",
-        "dwGlobalVars": "0x187DC80",
-        "dwGlowManager": "0x1A9C810",
-        "dwLocalPlayerController": "0x1A87030",
-        "dwLocalPlayerPawn": "0x1889F20",
-        "dwPlantedC4": "0x1AA6840",
-        "dwPrediction": "0x1889DA0",
-        "dwSensitivity": "0x1A9DF58",
+        "dwGameRules": "0x1A9D810",
+        "dwGlobalVars": "0x187EC70",
+        "dwGlowManager": "0x1A9D830",
+        "dwLocalPlayerController": "0x1A88060",
+        "dwLocalPlayerPawn": "0x188AF10",
+        "dwPlantedC4": "0x1AA79D0",
+        "dwPrediction": "0x188AD90",
+        "dwSensitivity": "0x1A9EE08",
         "dwSensitivity_sensitivity": "0x40",
-        "dwViewAngles": "0x1AABA40",
-        "dwViewMatrix": "0x1AA17B0",
-        "dwViewRender": "0x1AA1FC0",
-        "dwWeaponC4": "0x1A39C20"
+        "dwViewAngles": "0x1AACA60",
+        "dwViewMatrix": "0x1AA27D0",
+        "dwViewRender": "0x1AA2FE0",
+        "dwWeaponC4": "0x1A3AC60"
     },
     "engine2_dll": {
         "dwBuildNumber": "0x540BE4",
@@ -3554,11 +3563,11 @@
         "dwInputSystem": "0x387E0"
     },
     "matchmaking_dll": {
-        "dwGameTypes": "0x1A41B0",
+        "dwGameTypes": "0x1A3190",
         "dwGameTypes_mapName": "0x120"
     },
     "soundsystem_dll": {
-        "dwSoundSystem": "0x39E5E0",
+        "dwSoundSystem": "0x3A15F0",
         "dwSoundSystem_engineViewData": "0x7C"
     }
 }
