@@ -17,6 +17,11 @@
         "use": "0x1883BA0",
         "zoom": "0x1AAC530"
     },
+    "cs2_dumper": {},
+    "C_CSGO_TeamSelectCharacterPosition": {},
+    "C_HEGrenade": {},
+    "C_FuncMover": {},
+    "C_TriggerLerpObject": {},
     "CCSPlayer_MovementServices": {
         "m_vecLadderNormal": "0x218",
         "m_nLadderSurfacePropIndex": "0x224",
