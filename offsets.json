@@ -17,11 +17,6 @@
         "use": "0x1883BA0",
         "zoom": "0x1AAC530"
     },
-    "cs2_dumper": {},
-    "C_CSGO_TeamSelectCharacterPosition": {},
-    "C_HEGrenade": {},
-    "C_FuncMover": {},
-    "C_TriggerLerpObject": {},
     "CCSPlayer_MovementServices": {
         "m_vecLadderNormal": "0x218",
         "m_nLadderSurfacePropIndex": "0x224",
@@ -70,14 +65,12 @@
         "fog": "0x20",
         "m_nWorldGroupID": "0x88"
     },
-    "C_WeaponM4A1": {},
     "C_Item": {
         "m_pReticleHintTextName": "0x1668"
     },
     "C_SoundEventPathCornerEntity": {
         "m_vecCornerPairsNetworked": "0x628"
     },
-    "C_WeaponM249": {},
     "C_CSGameRules": {
         "m_bFreezePeriod": "0x40",
         "m_bWarmupPeriod": "0x41",
@@ -183,7 +176,6 @@
     "CBodyComponentSkeletonInstance": {
         "m_skeletonInstance": "0x50"
     },
-    "C_WeaponCZ75a": {},
     "C_BaseModelEntity": {
         "m_CRenderComponent": "0xA50",
         "m_CHitboxComponent": "0xA58",
@@ -277,12 +269,9 @@
         "m_bIsOn": "0x5BC",
         "m_pNext": "0x5C0"
     },
-    "CCSPointScriptExtensions_weapon_cs_base": {},
-    "C_LightSpotEntity": {},
     "C_EnvWind": {
         "m_EnvWindShared": "0x568"
     },
-    "C_GameRulesProxy": {},
     "C_BaseCombatCharacter": {
         "m_hMyWearables": "0x1120",
         "m_leftFootAttachment": "0x1138",
@@ -291,15 +280,9 @@
         "m_flWaterWorldZ": "0x1140",
         "m_flWaterNextTraceTime": "0x1144"
     },
-    "C_FlashbangProjectile": {},
-    "CEnvSoundscapeTriggerable": {},
     "C_SoundEventSphereEntity": {
         "m_flRadius": "0x628"
     },
-    "CPlayer_ViewModelServices": {},
-    "CCSGO_WingmanIntroCounterTerroristPosition": {},
-    "C_DynamicPropAlias_cable_dynamic": {},
-    "C_InfoInstructorHintHostageRescueZone": {},
     "C_SceneEntity": {
         "m_bIsPlayingBack": "0x570",
         "m_bPaused": "0x571",
@@ -363,7 +346,6 @@
         "m_bEnabled": "0xD44",
         "m_bDraw3DSkybox": "0xD45"
     },
-    "C_TriggerMultiple": {},
     "C_RopeKeyframe__CPhysicsDelegate": {
         "m_pKeyframe": "0x8"
     },
